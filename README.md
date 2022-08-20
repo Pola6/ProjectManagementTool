@@ -68,8 +68,8 @@ managers - can view all contect and can edit task, manager and project details
 
 To explore the content of the website you can use the below test user accounts:
 
-login: employee_account
+login: employee_account<br>
 password: Employee123
 
-login: manager_account
+login: manager_account<br>
 password: Manager123
