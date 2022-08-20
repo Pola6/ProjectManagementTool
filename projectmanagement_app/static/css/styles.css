@@ -1,0 +1,40 @@
+body {
+    font-family: Calibri;
+}
+
+h4 {
+    color: #0F55B2;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+h5 {
+    color: #0F55B2;
+    padding-bottom: 35px;
+}
+
+thead {
+    border-bottom-width: 2px;
+}
+
+th {
+    font-weight: normal;
+    color: #6c6a75;
+}
+
+td a { 
+    text-decoration: none; 
+    color: #000000;
+}
+
+.list-group-flush {
+    margin-bottom:50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #0F55B2;
+}

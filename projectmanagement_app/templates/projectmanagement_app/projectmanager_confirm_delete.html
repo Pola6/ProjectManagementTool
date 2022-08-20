@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4>Delete Manager</h4>
+
+{% if number_assigned_projects %}
+<p style="padding-bottom: 35px; color:red;"><i class="bi bi-exclamation-triangle"></i> You can't delete this manager because the manager is assigned to some projects. <br>
+    Please update project details so that this manager is not assigned to any projects.</p>
+{% else %}
+<p style="padding-bottom: 35px;">Are you sure you want to delete the manager from the database?</p>
+
+<form method="POST" style="display: inline;">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-success">Yes</button>
+</form><nobr>
+
+{% endif %}
+
+<button class="btn btn-danger" onclick="location.href='{% url "projectmanager-list" %}';">Cancel</button>
+
+{% endblock %}
