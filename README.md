@@ -34,7 +34,7 @@ $ pip install -r requirements.txt
 ```
 4. To view the app in the browser:
 ```
-$ py manage.py runserver
+$ python manage.py runserver
 ```
 ## Tests
 
