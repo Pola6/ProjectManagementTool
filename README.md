@@ -42,7 +42,7 @@ The project includes unit tests which subclass django.test.TestCase class.
 
 To run tests:
 ```
-$ py manage.py test
+$ python manage.py test
 ```
 
 ## Technologies
