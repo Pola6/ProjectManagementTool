@@ -22,11 +22,11 @@ Follow the steps below to get started with the development environment.
 
 1. Clone the repository
 ```
-$ git clone https://github.com/Pola6/ProjectManagementTool
+$ git clone https://github.com/Pola6/project-management-tool
 ```
 2. Navigate to the project directory
 ```
-$ cd ProjectManagementTool
+$ cd project-management-tool
 ```
 3. Install dependencies
 ```
