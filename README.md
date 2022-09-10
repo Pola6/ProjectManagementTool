@@ -38,7 +38,7 @@ $ python manage.py runserver
 ```
 ## Tests
 
-The project includes unit tests which subclass django.test.TestCase class.
+The project includes unit tests based on Django TestCase class.
 
 To run tests:
 ```
